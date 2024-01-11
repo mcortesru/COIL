@@ -18,6 +18,7 @@ Así que, una vez que contábamos con los .xlsx, fue necesario desarrollar una s
 > ES NECESARIO INDICARLE EL FICHERO QUE SE DESEA PROCESAR
 
 Este fichero guarda los .json a partir del .xlsx en `./jsonsFromExcel`
+
 Además, estos ficheros .json contienen como máximo 250.000 objetos (porque es el límite de Cosmos DB)
 
 ## 2
