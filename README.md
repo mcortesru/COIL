@@ -23,7 +23,8 @@ Además, estos ficheros .json contienen como máximo 250.000 objetos (porque es 
 
 ## 2
 `limpiar_jsons.py`
-Este fichero limpia valores enteros, booleanos... De forma que son aptos para Cosmos DB.
+Este fichero limpia valores enteros, booleanos... De forma que son aptos para Cosmos DB
+
 Los ficheros limpios se guardan en `./jsonsLimpios`
 
 ## 3
@@ -32,5 +33,6 @@ Este fichero guarda los .json a partir de los .xlsx en `./csvFromExcel`
 
 ## 4
 `limpiar_csv.py`
-Este fichero elimina comillas y comas de cada campo, de forma que tienen un formato válido.
+Este fichero elimina comillas y comas de cada campo, de forma que tienen un formato válido
+
 Los ficheros limpios se guardan en `./csvLimpios`
